@@ -1,0 +1,57 @@
+# Ignore Node.js build artifacts
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Ignore logs (if any)
+*.log
+
+# Ignore dotenv environment variable files
+.env
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE files
+.vscode/
+
+# Ignore package-lock.json or yarn.lock
+package-lock.json
+yarn.lock
+
+# Ignore any backup files
+*.bak
+
+# Ignore test coverage reports
+coverage/
+
+# Ignore production build directory
+/build
+
+# Ignore any sensitive or private information
+config.js  # Example file with sensitive information
+
+# Ignore any personal configuration or credentials files
+config/*.json
+
+# Ignore any compiled files
+*.min.js
+*.min.css
+
+# Ignore any backup or extra files
+*.bak
+*.swp
+
+# Ignore .env files
+.env
+
+# Ignore .log files
+*.log
+
+# Ignore yarn error logs
+yarn-error.log
+
+# Ignore testing databases
+*.sqlite
+*.sqlite3
